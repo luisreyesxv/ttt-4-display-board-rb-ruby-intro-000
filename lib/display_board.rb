@@ -1,6 +1,6 @@
 # Define display_board that accepts a board and prints
 # out the current state.
-def display_board (position)
+def display_board(position)
 
  puts " #{position[0]} " +"|"+" #{position[1]} "+"|"+" #{position[2] }"
  puts "-----------"
@@ -8,3 +8,4 @@ def display_board (position)
  puts "-----------"
  puts " #{position[6]} " +"|"+" #{position[7]} "+"|"+" #{position[8] }"
 end  
+display_board(" "," "," "," "," "," "," "," "," ",)
