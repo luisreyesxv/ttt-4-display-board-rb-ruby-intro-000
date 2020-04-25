@@ -8,4 +8,3 @@ def display_board(position)
  puts "-----------"
  puts " #{position[6]} " +"|"+" #{position[7]} "+"|"+" #{position[8] }"
 end
-
